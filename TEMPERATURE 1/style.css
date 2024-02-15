@@ -1,0 +1,59 @@
+/* css/style.css */
+
+.container {
+    width: 600px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  .input-group label {
+    width: 150px;
+    font-weight: bold;
+  }
+  
+  .input-group input {
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .button-group button {
+    width: 100px;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #result {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: none;
+  }
+  
+  #result p {
+    margin: 5px;
+  }
+  
